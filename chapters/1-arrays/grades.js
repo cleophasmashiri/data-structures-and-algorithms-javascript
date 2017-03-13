@@ -7,7 +7,7 @@
 
         this.add = function (item) {
             this.items.push(item);
-        }
+        };
 
         this.getAverage = function () {
             var total = 0;
@@ -15,7 +15,7 @@
                 total = total + item;
             });
             return total / this.items.length;
-        }
+        };
     }
 
     module.exports = Grades;
